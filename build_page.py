@@ -8,7 +8,7 @@ HERE = Path(__file__).resolve().parent
 MASCOT = HERE.parent / "dream-shorts" / "assets" / "mascot" / "jamongi.png"
 
 # 출시 알림: 카카오톡 채널 추가
-FORM_URL = "https://pf.kakao.com/_IYRwX"
+FORM_URL = "https://pf.kakao.com/_CswwX"
 
 HTML = """<!DOCTYPE html>
 <html lang="ko">
