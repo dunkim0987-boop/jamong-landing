@@ -50,6 +50,8 @@ HTML = """<!DOCTYPE html>
          padding:18px 20px; border-radius:16px; box-shadow:0 8px 28px rgba(254,229,0,.25); }
   .cta:active { transform:scale(.98); }
   .cta-sub { margin-top:12px; font-size:13px; color:#bdb2dd; }
+  .channels { margin-top:26px; font-size:13px; color:#cfc6e8; }
+  footer a { color:#ff9e80; text-decoration:none; }
   footer { margin-top:44px; font-size:12px; color:#8d82ad; line-height:1.7; }
 </style>
 </head>
@@ -74,8 +76,12 @@ HTML = """<!DOCTYPE html>
   <a class="cta" href="%%FORM_URL%%">💬 카카오톡 채널 추가하고 알림 받기</a>
   <p class="cta-sub">버튼 한 번이면 출시 소식을 가장 먼저 받아요</p>
 
+  <p class="channels">📺 YouTube · 📸 Instagram · 🧵 Threads <b>@jamong.dream</b> 에서 매일 꿈해몽</p>
   <footer>
     * 자몽의 해몽은 재미로 보는 AI 콘텐츠입니다.<br>
+    <a href="/jamong-landing/privacy.html">개인정보처리방침</a> ·
+    <a href="/jamong-landing/terms.html">이용약관</a> ·
+    <a href="/jamong-landing/d/">꿈해몽 사전</a><br>
     ⓒ 2026 자몽 — 자면서 꾼 꿈해몽
   </footer>
 </main>
